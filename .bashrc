@@ -41,7 +41,7 @@ cd() {
 
 # Auto cd into dir
 mkdircd() {
-    mkdir -p "$1" && cd "$1"
+mkdir -p "$1" && cd "$1"
 }
 
 # auto cd into dir after git clone 
